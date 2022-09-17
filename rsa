@@ -82,13 +82,9 @@ else
 
         do
 
-
-
                 result=$(factor "$i")
 
                 check_factor $result
-
-
 
         done < "$1"
 
